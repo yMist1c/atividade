@@ -1,0 +1,51 @@
+body{
+    background-color: green;
+}
+hr{
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.logo {
+    max-width: 200px;
+}
+p {
+    text-align: center;
+  }
+h1 {
+    width: calc(25% - 20px); 
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: green;
+}
+
+
+nav {
+    margin: 0 auto;
+    width: 200px; 
+    font-family:  sans-serif;
+    font-size: 18px;
+    font-weight: bold
+      
+  }
+  
+ 
+
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pizza {
+    width: calc(25% - 20px); /* 25% para 4 colunas, ajuste para 33.33% para 3 colunas */
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
