@@ -1,5 +1,5 @@
 body{
-    background-color: #98BF64;
+    background-color: #77dd77;
 }
 hr{
     color: white;
@@ -16,23 +16,28 @@ header {
 }
 p {
     text-align: center;
+    color: white;
   }
 h1 {
     width: calc(25% - 20px); 
     margin: 10px;
-    border: 1px solid #ccc;
     padding: 10px;
-    background-color: #9FA3A9;
+    background-color: #77dd77;
+    color: white;
 }
 
 
-nav {
-    margin: 0 auto;
-    width: 200px; 
-    font-family:  sans-serif;
-    font-size: 18px;
-    font-weight: bold
-      
+nav a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  nav a:hover {
+    background-color: green;
   }
   
  
@@ -41,13 +46,13 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #9FA3A9;
+    background-color: #77dd77;
 }
 
 .pizza {
     width: calc(25% - 20px); 
     margin: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #77dd77;
     padding: 10px;
 }
 
@@ -58,7 +63,7 @@ nav {
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #98BF64;
+    background-color: #77dd77;
 }
 
 .menu {
@@ -66,16 +71,16 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
-    background-color: #9FA3A9;
+    background-color: #77dd77;
 }
 
 .item {
-    border: 1px solid #ccc;
+    border: 1px solid #77dd77;
     padding: 20px;
     margin: 10px;
     width: 300px;
     text-align: left;
-    background-color: #9FA3A9;
+    background-color: #77dd77;
 }
 
 .bebidas {
@@ -86,7 +91,7 @@ body {
 
 .bebida {
     text-align: center;
-    border: 1px solid #ccc;
+    border: 1px solid #77dd77;
     padding: 20px;
 }
 
@@ -106,7 +111,7 @@ body {
 .entrada{
     width: calc(25% - 20px); 
     margin: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #77dd77;
     padding: 10px;
     justify-content: center;
 
@@ -117,6 +122,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
-    background-color: #9FA3A9;
+    background-color: #77dd77;
     justify-content: space-between;
 }
